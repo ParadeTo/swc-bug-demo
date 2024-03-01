@@ -1,0 +1,12 @@
+[package]
+name = "swc-bug-demo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+indexmap = "2.2.5"
+swc = "0.273.13"
+swc_common = { version = "0.33.18", features = ["tty-emitter"] }
+swc_ecma_parser = "0.143.5"
